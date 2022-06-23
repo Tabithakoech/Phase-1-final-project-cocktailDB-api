@@ -18,7 +18,7 @@ Getting:
 ********
 ## SetUp Instruction
 ### Requirements
-* [HTML](lang Url)
+* [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 * Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
 
 
