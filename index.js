@@ -26,8 +26,8 @@ fetch(url)
     .then((response) =>(response.json()))
     .then((data) => {
         console.log(data);
-    //     let html = "";
-    //     data.drinks.map((value) => {
+        let html = "";
+        data.drinks.map((value) => {
     //         html +=`
     //         <div class="col-md-4">
     //             <div class="card" style="width:350px">
