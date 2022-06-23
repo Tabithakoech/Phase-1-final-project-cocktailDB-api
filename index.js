@@ -28,7 +28,7 @@ fetch(url)
         console.log(data);
         let html = "";
         data.drinks.map((value) => {
-            html =`
+            html +=`
             <div class="col-md-4">
                 <div class="card" style="width:350px">
                     <img class="card-img-top" src="${value.strDrinkThumb}" alt="Card image" style="width:100%">
