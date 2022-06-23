@@ -42,9 +42,9 @@ fetch(url)
 
             </div>
             `
-    //     document.getElementById("content").innerHTML = html;
-    //     });
-    // })
-    // .catch((error) => {
-    //     console.log(error);
-    // } )
+        document.getElementById("content").innerHTML = html;
+        });
+    })
+    .catch((error) => {
+        console.log(error);
+    } )
