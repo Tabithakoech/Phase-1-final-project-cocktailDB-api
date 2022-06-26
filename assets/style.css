@@ -56,7 +56,9 @@ body{
 #get_cocktail:hover{
     background-color: #1A4D2E;
     color: #D0C9C0;
+    
 }
+
 #like-button{
     border-radius: 4vw;
     padding: 1vw;
@@ -67,4 +69,11 @@ body{
 #like-button:hover{
     background-color: #1A4D2E;
     color: #D0C9C0;
+}
+#inputLike{
+    border-radius: 4vw;
+    border: none;
+    padding: 0vw;
+    width: 3vw;
+    color: #000000;
 }
