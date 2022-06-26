@@ -13,6 +13,9 @@ Getting:
 
 
 ## SCREENSHOTS
+![Screenshot from 2022-06-26 21-02-19](https://user-images.githubusercontent.com/52375787/175827851-ef417ffa-87b2-4a75-b774-86b52774cb4f.png)
+&nbsp;
+![Screenshot from 2022-06-26 21-06-21](https://user-images.githubusercontent.com/52375787/175827953-e094a04c-ffd9-41e4-b8e4-6bad0adfe864.png)
 
 
 
