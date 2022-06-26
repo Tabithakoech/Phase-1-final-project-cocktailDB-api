@@ -40,6 +40,13 @@ body{
     font-family: 'Nunito', sans-serif;
     width: 45%; 
 }
+.random{
+    text-align: center;
+}
+#get_cocktail{
+    border-radius: 4vw;
+    padding: 1vw;
+}
 /* .like-button{
     font-family: 'Nunito', sans-serif;
     color: red;
