@@ -24,15 +24,14 @@ body{
     align-items: center;
     align-content: space-between;
     width: 100%;
+    padding: 2vw;
 }
 
 #five{
     width: 45%;
 }
 #five img{
-   height: 550px;
-   padding-left: 20px;
-   padding-bottom: 40px;
+   height: 40vw;
    border-radius: 50px;
 
 }
@@ -40,6 +39,8 @@ body{
 #seven{
     font-family: 'Nunito', sans-serif;
     width: 45%; 
+    padding-left: 2vw;
+    border: 2px solid #FF9F29;
 }
 .random{
     text-align: center;
@@ -48,9 +49,22 @@ body{
 #get_cocktail{
     border-radius: 4vw;
     padding: 1vw;
+    border: none;
+    padding:1vw 2vw 1vw 2vw;
+
 }
 #get_cocktail:hover{
-    background-color: #5F7161;
+    background-color: #1A4D2E;
     color: #D0C9C0;
 }
+#like-button{
+    border-radius: 4vw;
+    padding: 1vw;
+    border: none;
+    padding:1vw 2vw 1vw 2vw;
 
+}
+#like-button:hover{
+    background-color: #1A4D2E;
+    color: #D0C9C0;
+}
