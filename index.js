@@ -193,7 +193,7 @@ const createCocktail = (cocktail) => {
             <div id="seven">
                <h4>${cocktail.strDrink}</h4>
 				<p><strong>Category:</strong> ${cocktail.strCategory}</p>
-				
+				<p><strong>Glass type:</strong> ${cocktail.strGlass}</p>
 				<p><strong>Type:</strong> ${cocktail.strAlcoholic}</p>
 				<h5>Ingredients:</h5>
 				<ul>
@@ -201,35 +201,27 @@ const createCocktail = (cocktail) => {
 				</ul>
                 <h5>Instructions:</h5>
 				<p>${cocktail.strInstructions}</p>
+				<div class="likes-section">
+                  <button id="like-button" class="like"><span id="like-count" class="likeNum">0 likes</span>♥</button>
+                </div>
 			</div>
 		</div>
 	`;
 	
 cocktail_container.innerHTML = newInnerHTML;
 }
-// document.getElementById('like-button').addEventListener('click', () => {
-// 	let likeCount = document.querySelector('#like-count');
-// 	let currentCount = parseInt(likeCount.innerText);
-// 	likeCount.innerText = currentCount + 1;
-// })
+const getLike=document.querySelector(".like");
+const getLikeCount = document.querySelector(".likeNum");
+let like = 0;
+let increaseLike;
+let likeClick;
 
+increaseLike = () => {
+	  like++;
+    getLikeCount.innerHTML = `${'like'}`
 
-
-
-
-
-// <button id="like-button" class="like-button">♥</button></div></span>
-
-
-// // SOCIAL PANEL JS
-// const floating_btn = document.querySelector('.floating-btn');
-// const close_btn = document.querySelector('.close-btn');
-// const social_panel_container = document.querySelector('.social-panel-container');
-
-// floating_btn.addEventListener('click', () => {
-// 	social_panel_container.classList.toggle('visible')
-// });
-
-// close_btn.addEventListener('click', () => {
-// 	social_panel_container.classList.remove('visible')
-// });
+}
+likeClick	= () => {
+	increaseLike();
+}
+getLike.addEventListener("click", likeClick);

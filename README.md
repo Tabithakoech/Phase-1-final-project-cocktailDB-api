@@ -38,7 +38,7 @@ Getting:
 Use Live share extension to run the HTML File.
 
 ## Live Link
-Or you can access the web application directly via this [LINK.]
+Or you can access the web application directly via this [LINK.](https://tabithakoech.github.io/Phase-1-final-project-cocktailDB-api/)
 
 
 ## Technologies Used
